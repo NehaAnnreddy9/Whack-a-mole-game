@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+
+#timeboard{
+    position: fixed;
+    right: 20px;
+    top: 0;
+    width:fit-content;
+}
+
+#gameboard{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 840px;
+  height: 620px;
+}
+
+.dot {
+    height: 200px;
+    width: 200px;
+    border: 2px solid brown;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+img{
+    width: 200px;
+    height: 200px;
+    visibility: hidden;
+}
